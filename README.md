@@ -55,40 +55,40 @@ Initially, data was stored in JSON files, but the project has been refactored to
 
 ## Project Structure
 colibri-restaurant/
-├── admin/ # Admin panel files
-│ ├── index.php # Admin dashboard
-│ ├── menu_manage.php
-│ ├── menu_edit.php
-│ ├── menu_delete.php
-│ ├── orders.php
-│ ├── order_details_view.php
-│ ├── update_order_status.php
-│ ├── reservations.php
-│ ├── update_reservation_status.php
-│ ├── admin_header.php # Common admin page header
-│ └── admin_footer.php # Common admin page footer
-├── data/ # (Optional: Original JSON data files, can be removed/archived)
-│ ├── menu.json
-│ └── ...
-├── images/ # Static images and uploaded menu item images
-│ ├── background.jpg
-│ ├── bowl1.jpg
-│ └── ... (uploaded images)
-├── css/ # (If you have a separate CSS folder)
-│ └── style.css
-├── style.css # Main stylesheet (if in root)
-├── bootstrap.php # Core PHP functions, session start, DB connection include
-├── db_connect.php # MySQL database connection script
-├── index.php # Public homepage
-├── menu.php # Public menu page
-├── order-online.php # Page for customers to place orders
-├── checkout.php # Order checkout page
-├── reserve.php # Reservation form page (You might have this or similar)
-├── login.php # User login page
-├── logout.php # Handles user logout
-├── register.php # User registration page
-├── profile.php # User profile page
-└── README.md # This file
+*├── admin/ # Admin panel files
+*│ ├── index.php # Admin dashboard
+*│ ├── menu_manage.php
+*│ ├── menu_edit.php
+*│ ├── menu_delete.php
+*│ ├── orders.php
+*│ ├── order_details_view.php
+*│ ├── update_order_status.php
+*│ ├── reservations.php
+*│ ├── update_reservation_status.php
+*│ ├── admin_header.php # Common admin page header
+*│ └── admin_footer.php # Common admin page footer
+*├── data/ # (Optional: Original JSON data files, can be removed/archived)
+*│ ├── menu.json
+*│ └── ...
+*├── images/ # Static images and uploaded menu item images
+*│ ├── background.jpg
+*│ ├── bowl1.jpg
+*│ └── ... (uploaded images)
+*├── css/ # (If you have a separate CSS folder)
+*│ └── style.css
+*├── style.css # Main stylesheet (if in root)
+*├── bootstrap.php # Core PHP functions, session start, DB connection include
+*├── db_connect.php # MySQL database connection script
+*├── index.php # Public homepage
+*├── menu.php # Public menu page
+*├── order-online.php # Page for customers to place orders
+*├── checkout.php # Order checkout page
+*├── reserve.php # Reservation form page (You might have this or similar)
+*├── login.php # User login page
+*├── logout.php # Handles user logout
+*├── register.php # User registration page
+*├── profile.php # User profile page
+*└── README.md # This file
 ## Setup and Installation (for XAMPP Environment)
 
 1.  **Prerequisites:**
